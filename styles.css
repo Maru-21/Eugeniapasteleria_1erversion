@@ -1,0 +1,318 @@
+html{
+    font-size: 62,5%;
+}
+*{
+    margin:0rem;
+    font-family:"principal";
+   
+}
+@keyframes anim1 {
+   from{opacity: 0}
+      to{ opacity: 1;}   
+}
+ 
+@font-face{
+    font-family:"principal";
+    src: url('fonts/LEMONMILK-Regular.otf');
+ 
+}
+ 
+header{
+    background-color: #CEAB93;
+}
+.cabecera{
+    display: inline-block;
+}
+h1{
+    font-size: 2.5rem;
+    text-align: center;
+    font-family: "principal";
+ 
+}
+ 
+nav{
+    word-spacing: 2rem;
+    text-align: center;
+}
+ 
+.navg{
+    text-align: center;
+    display: inline-block;
+    font-family: "principal";
+    font-size: 1.5rem;
+}
+ #p{
+    word-spacing: 2rem;
+    text-align: center;
+    word-spacing: 0rem;
+    display: inline-block;
+    font-size: 1.5rem;
+} 
+ 
+a{
+    text-decoration: none;
+    color:black
+ 
+}
+ 
+.logo{
+    display: inline-block;
+    width: 6vw;
+    
+}
+ 
+.platos{
+    width: 100vw;
+    height: 70vh ;
+    box-sizing: border-box;
+    margin: 0rem;
+}
+ 
+ 
+ 
+footer{
+    background-color: #E3CAA5;
+    height: 5rem;
+    font-family: "principal";
+    text-align: center;
+    font-size: medium;
+    word-spacing: 0.5 rem;
+ 
+ 
+}
+ 
+#seccionalgo{
+    background-color: #F3E9DD;
+    display:grid;
+    grid-template-columns: 48% 50%;
+    gap:1rem;
+    
+}
+ 
+#eugecocinando{
+    width:45vw;
+    display: grid;
+    border: 4px solid #120802;
+}
+#pasaje{
+    width: 50vw;
+    /* font-family: 'Roboto', sans-serif;  */
+    text-align: center;
+    font-size:large;
+    display:grid;
+
+}
+ 
+#algodemi{
+    margin-top: 1rem;
+    text-align: center;
+   
+ 
+ 
+}
+
+#pasaje p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.5rem;
+}
+ 
+ 
+ 
+ 
+ 
+.t2prods{
+    margin-left: 4rem;
+}
+ 
+.prods{
+    margin-left: 6rem;
+}
+
+ 
+.contact{
+    text-align: center;
+    margin-top: 1rem;
+    animation: anim1 1s linear infinite alternate;
+    
+ }
+#cont-flex{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2rem;
+    
+}
+.flex-item{
+    
+    text-align: center;
+   
+ }
+
+.hist{
+    text-align: center;
+    margin-top: 2rem;
+ }
+
+.grid-container{
+    display: grid;
+    margin: 4rem;
+    grid-template-columns: repeat(4,20rem);
+    gap: 2rem;
+    grid-template-columns: repeat(autofit,mnmax(n));
+}
+
+.grid-item{
+    border: 2px outset black;
+    display: grid;
+    
+    
+   
+}
+
+.imgC{
+    width: 19.6rem;
+    height: 19.6rem;
+    
+}
+
+.histt{
+    text-align:center;
+}
+
+.plet{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: justify;
+}
+/*
+font-family: 'Montserrat', sans-serif;
+no me anda
+font-family: 'Poppins', sans-serif;
+font-family: 'Lato', sans-serif;
+font-family: 'Roboto', sans-serif;
+ 
+*/
+/* *{ 
+    margin:0rem;
+    font-family:"principal";
+}
+
+@font-face{
+    font-family:"principal";
+    src: url('fonts/LEMONMILK-Regular.otf');
+    
+}
+
+header{
+    background-color: #CEAB93;
+}
+.cabecera{
+    display: inline-block;
+}
+h1{
+    font-size: 2.5rem;
+    text-align: center;
+    font-family: "principal";
+    
+}
+
+nav{
+    word-spacing: 2rem;
+    text-align: center;
+}
+
+.navg{
+    text-align: center;
+    display: inline-block;
+    font-family: "principal";
+    font-size: 1.5rem;
+}
+ #p{
+    word-spacing: 2rem;
+    text-align: center;
+    word-spacing: 0rem;
+    display: inline-block;
+    font-size: 1.5rem;
+} 
+
+a{
+    text-decoration: none;
+    color:black
+
+}
+
+.logo{
+    display: inline-block;
+    width: 6vw;
+    /*float:left;
+}
+
+.platos{
+    width: 100vw;
+    height: 70vh ;
+    box-sizing: border-box;
+    margin: 0rem;
+}
+
+
+
+footer{
+    background-color: #E3CAA5;
+    height: 5rem;
+    font-family: "principal";
+    text-align: center;
+    font-size: medium;
+    word-spacing: 0.5 rem;
+   
+    
+}
+
+#seccionalgo{
+    background-color: #F3E9DD;
+    display:grid;
+    grid-template-columns: 0.5rem 2fr;
+    gap:0.5rem;
+}
+
+#eugecocinando{
+    width:50%;
+    display: grid;
+    grid-template-columns: 0.5rem,2fr;
+}
+#pasaje{
+    
+    /* font-family: "Roboto", sans-serif; 
+    text-align: justify;
+    font-size:x-large;
+    display:grid;
+    grid-template-columns: 0.5rem,2fr;
+    
+   
+}
+
+#algodemi{
+    text-align: center;
+    background-color: #AD8B73;
+    
+
+}
+
+
+
+
+
+.t2prods{
+        margin-left: 0.5rem;
+}
+
+.prods{
+    margin-left: 1rem;
+}
+
+
+/*
+font-family: 'Montserrat', sans-serif;
+no me anda
+font-family: 'Poppins', sans-serif;
+font-family: 'Lato', sans-serif;
+font-family: 'Roboto', sans-serif;
+
+*/
